@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MovieMadness</string>
+    <string name="action_settings">Settings</string>
+    <string name="Popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="popularity">Sorted by Popularity</string>
+    <string name="Top_rated">Sorted by Ratings</string>
+    <string name="no_internet">Internet Not Available</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="nowPlaying">Now Playing</string>
+</resources>

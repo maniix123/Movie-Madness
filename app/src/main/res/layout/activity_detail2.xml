@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.android.moviemadness.DetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/movie_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Movie Name: " />
+
+                <TextView
+                    android:id="@+id/movie_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/movie_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:text="dwadawd " />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/movie_info"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:text="Movie Rating " />
+
+                <TextView
+                    android:id="@+id/release_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:gravity=""
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:text="Release Date:  " />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.moviemadness.MainActivity">
+    <item
+        android:id="@+id/sort_popular"
+        android:orderInCategory="100"
+        android:title="@string/Popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_rate"
+        android:orderInCategory="100"
+        android:title="@string/top_rated"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sort_upcoming"
+        android:orderInCategory="100"
+        android:title="@string/upcoming"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sort_nowPlaying"
+        android:orderInCategory="100"
+        android:title="@string/nowPlaying"
+        app:showAsAction="never"/>
+
+</menu>
